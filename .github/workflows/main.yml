@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
-      - run: echo "Hello world with the help from Chat GPT"
+      - run: echo "Hello world with the help from Chat GPT" > hello_world.txt
       
         
